@@ -1,0 +1,8 @@
+pandas
+numpy
+boto3
+openpyxl
+scikit-learn
+fastapi
+uvicorn
+mlflow

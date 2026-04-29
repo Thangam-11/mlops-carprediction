@@ -1,0 +1,25 @@
+Collecting pydantic-settings
+  Downloading pydantic_settings-2.14.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting pydantic>=2.7.0 (from pydantic-settings)
+  Downloading pydantic-2.13.3-py3-none-any.whl.metadata (108 kB)
+     ------------------------------------ 108.8/108.8 kB 703.8 kB/s eta 0:00:00
+Requirement already satisfied: python-dotenv>=0.21.0 in c:\users\thang\appdata\local\programs\python\python311\lib\site-packages (from pydantic-settings) (1.2.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in c:\users\thang\appdata\local\programs\python\python311\lib\site-packages (from pydantic-settings) (0.4.2)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.7.0->pydantic-settings)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.3 (from pydantic>=2.7.0->pydantic-settings)
+  Downloading pydantic_core-2.46.3-cp311-cp311-win_amd64.whl.metadata (6.7 kB)
+Requirement already satisfied: typing-extensions>=4.14.1 in c:\users\thang\appdata\local\programs\python\python311\lib\site-packages (from pydantic>=2.7.0->pydantic-settings) (4.15.0)
+Downloading pydantic_settings-2.14.0-py3-none-any.whl (60 kB)
+   ---------------------------------------- 60.9/60.9 kB 1.6 MB/s eta 0:00:00
+Downloading pydantic-2.13.3-py3-none-any.whl (471 kB)
+   ---------------------------------------- 472.0/472.0 kB 4.9 MB/s eta 0:00:00
+Downloading pydantic_core-2.46.3-cp311-cp311-win_amd64.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 14.6 MB/s eta 0:00:00
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Installing collected packages: pydantic-core, annotated-types, pydantic, pydantic-settings
+  Attempting uninstall: pydantic-core
+    Found existing installation: pydantic_core 2.41.5
+    Uninstalling pydantic_core-2.41.5:
+      Successfully uninstalled pydantic_core-2.41.5
+Successfully installed annotated-types-0.7.0 pydantic-2.13.3 pydantic-core-2.46.3 pydantic-settings-2.14.0

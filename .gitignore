@@ -1,0 +1,23 @@
+.venv
+.env
+airflow.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+# Ignore virtual environment directories
+venv/
+env/
+.venv/  
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore data files
+data/
+# Ignore logs
+logs/
+# Ignore configuration files
+config/
+# Ignore AWS credentials file
+.aws/credentials
+
