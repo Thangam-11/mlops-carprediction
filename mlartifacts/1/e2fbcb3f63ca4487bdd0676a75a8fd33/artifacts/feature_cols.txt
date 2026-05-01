@@ -1,0 +1,15 @@
+Age_of_Car
+Model_Year
+Kms_Driven
+Number_of_Owners
+Engine
+Max_Power
+Torque
+Mileage
+Seats
+Fuel_Type_encoded
+Body_Type_encoded
+Transmission_Type_encoded
+OEM_freq
+Car_Model_freq
+Variant_Name_freq

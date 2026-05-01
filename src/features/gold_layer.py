@@ -26,6 +26,7 @@ from utils.custom_exceptions import (
 )
 from utils.logger_exceptions import get_logger
 
+# remove the outliars in the price column and save the cleaned data to silver layer in s3
 
 # ─────────────────────────────────────────────────────────────
 # Silver SILVER_COLUMNS (from data_cleaner.py):
@@ -41,7 +42,7 @@ from utils.logger_exceptions import get_logger
 HIGH_CARDINALITY_GOLD = ["OEM", "Car_Model", "Variant_Name"]
 
 # Low-cardinality cols → Label Encoding
-LOW_CARDINALITY_GOLD = ["Fuel_Type", "Body_Type", "Transmission_Type", "source_city"]
+LOW_CARDINALITY_GOLD = ["Fuel_Type", "Body_Type", "Transmission_Type",]
 
 # All categorical cols
 CATEGORICAL_COLS_GOLD = LOW_CARDINALITY_GOLD + HIGH_CARDINALITY_GOLD
